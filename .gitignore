@@ -19,6 +19,9 @@ target/
 *.iml
 *.ipr
 
+# Ignore JAR files
+*.jar
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -28,6 +31,11 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
+
+# Ignore build output directories
+/bin/
+/build/
+/target/
 
 ### VS Code ###
 .vscode/
