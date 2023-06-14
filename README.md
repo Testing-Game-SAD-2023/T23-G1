@@ -13,11 +13,13 @@ All'atto della autenticazione, lo studente fornirà l'indirizzo e-mail fornito p
 
 <h3> Deployment dell'applicazione </h3>
 
-*Aprire Docker 
-*Aprire un terminale da amministratore e posizionarsi sul percorso dove è contenuto il progetto
-	-docker-compose up: viene utilizzato per avviare i servizi definiti in un file di configurazione "docker-compose.yml". Viene creata l’immagine del container e viene eseguito il running.
-*Per effettuare le richieste, aprire da browser le pagine tramite i path in locale (http://localhost:8080/register, http://localhost:8080/login, ecc.)
-*Per verificare la correttezza del popolamento delle tabelle del database, aprire un terminale ed eseguire i seguenti comandi:
+<li>
+<p>Aprire Docker </p>
+<p>Aprire un terminale da amministratore e posizionarsi sul percorso dove è contenuto il progetto
+	-docker-compose up: viene utilizzato per avviare i servizi definiti in un file di configurazione "docker-compose.yml". Viene creata l’immagine del container e viene eseguito il running.</p>
+<p>Per effettuare le richieste, aprire da browser le pagine tramite i path in locale (http://localhost:8080/register, http://localhost:8080/login, ecc.) </p>
+<p>Per verificare la correttezza del popolamento delle tabelle del database, aprire un terminale ed eseguire i seguenti comandi:
 	-docker exec –it g1-t2t3-app-1 bash: viene utilizzato per entrare all'interno di un container Docker in esecuzione e avviare una shell interattiva al suo interno.
-	-mysql –u root –p STUDENTSREPO: viene utilizzato per accedere all'interfaccia della riga di comando di MySQL e connettersi al database "STUDENTSREPO" utilizzando l'utente "root" e richiedendo la password “password”.
-*Utilizzare i comandi SQL per la gestione delle tabelle (SELECT, DROP, SHOW TABLES, ecc.)
+	-mysql –u root –p STUDENTSREPO: viene utilizzato per accedere all'interfaccia della riga di comando di MySQL e connettersi al database "STUDENTSREPO" utilizzando l'utente "root" e richiedendo la password “password”. </p>
+<p>Utilizzare i comandi SQL per la gestione delle tabelle (SELECT, DROP, SHOW TABLES, ecc.) </p>
+</li>
